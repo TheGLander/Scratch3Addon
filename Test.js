@@ -22,4 +22,9 @@ class Test {
         }
     }
 }
+test({TEXT}) {
+    sayedtxt = TEXT;
+    var msg = new SpeechSynthesisUtterance(TEXT);
+    self.speechSynthesis.speak(msg);
+}
 Scratch.extensions.register(new Test());
