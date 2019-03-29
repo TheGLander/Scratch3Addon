@@ -1,4 +1,4 @@
-const icon = "https://github.com/TheGLander/Scratch3Addon/blob/master/G.png"
+const icon = "https://raw.githubusercontent.com/TheGLander/Scratch3Addon/master/G.png"
 class Test {
     constructor() {}
     getInfo() {
