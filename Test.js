@@ -1,6 +1,6 @@
 var MyExtension = function () {;
-    id = "test",
-    name = "Test"
+    id: "test",
+    name: "Test"
 };
 MyExtension.prototype.getInfo = function () {
     return {
