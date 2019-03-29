@@ -7,4 +7,4 @@ class Test {
         }
     }
 }
-Scratch.extensions.register(new MyExtension());
+Scratch.extensions.register(new Test());
