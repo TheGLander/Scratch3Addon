@@ -5,7 +5,10 @@ class Test {
         return{
             id: 'Test',
             name: "G's extension test",
-            menuIconURI: icon
+            menuIconURI: icon,
+            blocks: [
+
+            ]
         }
     }
 }
