@@ -1,10 +1,10 @@
-var MyExtension = function () {;
-    id: "test",
-    name; "Test"
-};
-MyExtension.prototype.getInfo = function () {
-    return {
-        
-// Object goes here
-}}
+class Test {
+    constructor() {}
+    getInfo() {
+        return{
+            id: 'Test',
+            name: "G's extension test",
+        }
+    }
+}
 Scratch.extensions.register(new MyExtension());
